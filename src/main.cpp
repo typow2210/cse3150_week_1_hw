@@ -3,11 +3,12 @@
 #include "AdvancedMath.h"
 
 int main(){
-	std::cout << "Using square() with 9 as n, the result is: " << AdvancedMath::square(9) << std::endl;
+	int a = 3; 
+	int b = 4; 
 
-	std::cout << "Using add() with 3 as a and 6 as b, the result is: " << MathUtils::add(3,6) << std::endl;
-
-	std::cout << "Using multiply() with 3 as a and 6 as b, the result is: " << MathUtils::multiply(3,6) << std::endl;
+	std::cout << "a + b = " << MathUtils::add(a,b) << std::endl;
+	std::cout << "a * b = " << MathUtils::multiply(a,b) << std::endl;
+	std::cout << "square(a) = " << AdvancedMath::square(a) << std::endl;
 
 	return 0; 
 }
